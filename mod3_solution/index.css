@@ -1,0 +1,108 @@
+.navbar {
+  background-color: white;
+  border-radius: 0;
+  border: solid;
+  margin-bottom: 0; 
+}
+
+
+
+.navbar-brand {
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #333;
+}
+@media (max-width: 768px) {
+  .navbar-header {
+    color: black;
+  background-color:rgb(73, 71, 71);
+  border-bottom: 2px;
+  margin-bottom: 0;
+  border: solid;
+}
+}
+
+@media (max-width: 991px) {
+  .menu-items {
+    text-align: center;
+  }
+
+  .menu-items li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .navbar {
+  background-color: rgb(73, 71, 71);
+  border-width: 6px;
+  }
+  .navbar-toggle {
+    display: none;
+  }
+  
+  .menu-items {
+    display: none;
+  }
+  
+}
+
+.first-item{
+  border: solid;
+  height: 0px;
+  border-width: 3px;
+  padding-top: 3px;
+  padding-bottom: 35px;
+  margin-top: -9px;
+  
+  
+
+}
+.second-item{
+  border: solid;
+  height: 0px;
+  border-width: 3px;
+  padding-top: 5px;
+  padding-bottom: 35px;
+  margin-top: 0px;
+  border-top: 0;
+  
+
+}
+.third-item{
+  color: black;
+  border: solid;
+  height: 0px;
+  border-width: 3px;
+  padding-top: 5px;
+  border-bottom: 0px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  border-top: 0;
+
+}
+
+
+.ontent{
+  
+}
+.main-content{
+  color: black;
+  background-color: rgb(73, 71, 71);
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+.text-center{
+  margin-bottom: 20px;
+  margin-top: 5px;
+  
+}
